@@ -1,0 +1,69 @@
+.btn-ingresar-container {
+    margin-top: auto; /* Esto empuja el botón al fondo del contenedor */
+    padding: 16px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.btn-cerrar {
+    --background: red; /* Color de fondo del botón */
+    --color: white; /* Color del texto del botón */
+    --border-color: red; /* Color del borde del botón */
+}
+
+.wel-usuario{
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 0 auto; /* Asegura que el margen sea automático para centrar en su contenedor */
+    padding: 16px; 
+    color: rgb(2, 2, 2); /*color de las letras*/
+}
+
+.qr {
+    width: 100%; /* Para que ocupe todo el espacio dentro del contenedor */
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+    opacity: 0; /* Para la animación de aparición */
+    animation: fadeIn 3s forwards ease-in-out; /* La imagen aparecerá gradualmente */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.btm-empezar{
+    --color: white;
+    --background: rgb(200, 185, 20);
+}
+ion-segment {
+    --background: #214446;
+  }
+
+ /* .animar-borde {
+    width: 410px; 
+    height: 210px;
+    border-radius: 10%;
+    border: 5px solid red;
+    display: inline-block; 
+    animation: cambiarColor 3s infinite; 
+}
+
+@keyframes cambiarColor {
+    0% {
+        border-color: red;
+    }
+    33% {
+        border-color: blue;
+    }
+    66% {
+        border-color: green;
+    }
+    100% {
+        border-color: red;
+    }
+} */

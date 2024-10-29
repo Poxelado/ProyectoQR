@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      SuperMegaApp
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">MegaApp</ion-title>
+    </ion-toolbar>
+
+  </ion-header>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Credenciales</ion-card-title>
+        <ion-card-subtitle>Login de acceso</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-input label="Usuario: " [(ngModel)]="user.username" labelPlacement="floating" [counter]="true" ></ion-input>
+
+        <ion-input id="custom-input"  [(ngModel)]="user.pass" type="password" label="Contraseña: " labelPlacement="floating" [counter]="true"
+          ></ion-input>
+
+        <ion-input id="custom-input" type="email" label="Email" labelPlacement="floating" [counter]="true"
+        ></ion-input>
+        <ion-button (click)="Validar()" >Login</ion-button> 
+        <ion-item *ngIf="spinner">
+          
+          <mat-spinner></mat-spinner>
+
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
