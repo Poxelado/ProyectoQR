@@ -41,6 +41,8 @@ const routes: Routes = [
     path: 'modificar',
     loadChildren: () => import('./admin/modificar/modificar.module').then( m => m.ModificarPageModule)
   },
+ 
+
 
 
 ];

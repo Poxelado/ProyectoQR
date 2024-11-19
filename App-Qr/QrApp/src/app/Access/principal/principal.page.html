@@ -32,24 +32,18 @@
   <ion-content class="ion-padding fondo">
     <h4 class="wel-usuario">Bienvenido {{usuario}}!</h4>
    <!--  <ion-searchbar show-cancel-button="focus" placeholder="¿A cual clase estas?"></ion-searchbar> -->
-    <div class="animar-bord">
+    <!-- <div class="animar-bord">
       <br>
       <img class="qr" src="../../../assets/img/imagenqr.jpg" alt="Mapa">
-    </div> 
+    </div>  -->
     <!--  <ion-button [@pulse]="taAnimao ? 'true' : 'false'" (click)="animacionBtn()" expand="block"
       class="btm-empezar">
       Registrarme en la clase
     </ion-button> -->
     
-    <ion-segment value="segment">
-      <ion-segment-button value="generate">
-        <ion-label>Generar</ion-label>
-      </ion-segment-button>
-      <ion-segment-button value="scan">
-        <ion-label>Escanear</ion-label>
-      </ion-segment-button>
-
-    </ion-segment>
+    <input type="text" [(ngModel)]="textoe" class="qr">
+    <br><br>
+    <qrcode  [qrdata]="textoe" [width]="300"></qrcode>
     
     <!-- <div class="segment" *ngIf="segment === generate">
      <div class="segment-content">

@@ -19,11 +19,12 @@ import { AuthentificatorService } from 'src/app/Servicios/authentificator.servic
 })
 
 export class PrincipalPage implements OnInit {
-
+  textoe: any;
+  
   usuario = '';
   taAnimao = false;
   //segment ='generate';
-
+  
   constructor(
     private router: Router,
     private auth : AuthentificatorService
