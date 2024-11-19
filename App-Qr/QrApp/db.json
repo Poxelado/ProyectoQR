@@ -1,54 +1,6 @@
 {
   "users": [
-    {
-      "username": "hugo",
-      "email": "correo@correo.cl",
-      "password": "pass1234",
-      "id": "a6d3"
-    },
-    {
-      "username": "z.test",
-      "email": "email@gmail.com",
-      "password": "password1234",
-      "id": "edc7"
-    },
-    {
-      "username": "i.prueba",
-      "email": "prueba@outlook.com",
-      "password": "contraseña",
-      "id": "81d1"
-    },
-    {
-      "id": "0e92",
-      "username": "donugo",
-      "email": "hu@gmail.cl",
-      "password": "Hugo1234$"
-    },
-    {
-      "id": "fdd2",
-      "username": "hugo",
-      "email": "hu@g",
-      "password": "Hugo1234$"
-    },
-    {
-      "id": "103b",
-      "username": "UGO",
-      "email": "hu@s",
-      "password": "Hugo123#"
-    },
-    {
-      "id": "c700",
-      "username": "luis",
-      "email": "hu@d",
-      "password": "Hugo123."
-    }
   ],
   "test": [
-    {
-      "id": "fe4b",
-      "username": "test",
-      "email": "test@g",
-      "password": "Hugo1234$"
-    }
   ]
 }
