@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ApiControllerService {
 
-  apiURL = "http://127.0.0.1:8000/api/"
+  apiURL = "https://apidjango-4q61.onrender.com/api/"
   /* apiURL = "http://localhost:3000/" */
   
   constructor(private http: HttpClient) {
